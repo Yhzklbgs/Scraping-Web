@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # Define the URL
+tv_channels = ["rcti", "nettv", "antv", "gtv", "indosiar", "inewstv", "kompastv", "metrotv", "mnctv", "rtv", "sctv", "trans7", "transtv", "tvone", "tvri"]
 url = "https://www.jadwaltv.net/channel/rcti"
 
 # Send a GET request to the URL
